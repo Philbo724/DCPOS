@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DiscConnectionSuite.exe" version="1.0.0.0" publicKeyToken="bbf021a326557ba2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DiscConnectionSuite" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DiscConnectionSuite.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DiscConnectionSuite.exe" size="120256">
+      <assemblyIdentity name="DiscConnectionSuite" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q64Z0jr0kzVeI2z790Q8OsrxVVLkW3cHBzJH7e5n2qA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.Common.dll" size="6391672">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5HUSIEejY3H2Hoa40Jn8jW8mO9O9sD0AsRFrDLWyhjY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.WinForms.dll" size="548224">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6sxywAKV0FfDrZqqqr7zCGylKhT6cX4W7wU0ABGnH4g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DiscConnectionSuite.exe.config" size="767">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S/mfKZuuejHSlRFKblndBF+gQ6XAVZLX9EgVW7OzXOU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DisConnLib.dll" size="60928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s7gtEjg3U/kjbT1SFQkW1I5jpBlIjOlxsTkuGLefMSY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Riddick\Jonathan" issuerKeyHash="4eeac21d0f995174b9da2c1db1c9fb96a63ab9a2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mVaoTjCBxbrqM0GAQk9EWvv4AxR37XwShaMi4tC2OMU=</DigestValue></Reference></SignedInfo><SignatureValue>bI6IleMtbakMpJ0SRoSf3XmEX0ew2+aIu59qHtA6OShCJMbovaRmZl3Bk3+szjlI0+/WA80frR5NLJtAUP7oFl3Aasoz1EZ9xohcZwMoWzQpEZhILjWFRDFIbjBJIV1YM7Pe/+lC4GtOjUkrEoW1U9qsDIcXqeBMViiTDfkqjCg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vnQvu7Yk4ef0XjPqVWmtxpLqlxKnSsfC55tIuP9zg7gZqwNglYPf+LAl2BKOZ1ZBcUgK84OElo7KUrJrOLCqkUJ737ZMMUGzO1Qy5nnunHh9A17NefUQ4tUpfUtKtUhwpRVcdnEtCp5DrRNBaxA134GD0Pi8pzRu5M1E7NkMBm8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c538b6d0e222a385127ced771403f8fb5a444f42804133eabac581304ea85699" Description="" Url=""><as:assemblyIdentity name="DiscConnectionSuite.exe" version="1.0.0.0" publicKeyToken="bbf021a326557ba2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Riddick\Jonathan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ItNb3OwESrO2W1/LyzghjEGsdI27RGM+pD7G8oK+4JQ=</DigestValue></Reference></SignedInfo><SignatureValue>XeCYq1r8B6eQPv/8DXk+bprfyXjX4A3ehjgMuACczCUxqrqfwMiexMiurH6r1oeB91P76et2E4bNDYZXtm61rP4LqBH9WEA67E7iDKT4iMWeGtvREjrIe/9aKFZ/t0N9dW0JNVa6beEGEONX1XbiAdS3G3uxcyq+WfA9LLZU8Bw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vnQvu7Yk4ef0XjPqVWmtxpLqlxKnSsfC55tIuP9zg7gZqwNglYPf+LAl2BKOZ1ZBcUgK84OElo7KUrJrOLCqkUJ737ZMMUGzO1Qy5nnunHh9A17NefUQ4tUpfUtKtUhwpRVcdnEtCp5DrRNBaxA134GD0Pi8pzRu5M1E7NkMBm8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQSnuW+5jNfLpCf8cgBa7RBTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUgBpAGQAZABpAGMAawBcAEoAbwBuAGEAdABoAGEAbjAeFw0xNjA5MTcxMjM0NDRaFw0xNzA5MTcxODM0NDRaMCsxKTAnBgNVBAMeIABSAGkAZABkAGkAYwBrAFwASgBvAG4AYQB0AGgAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+dC+7tiTh5/ReM+pVaa3GkuqXEqdKx8Lnm0i4/3ODuBmrA2CVg9/4sCXYEo5nVkFxSArzg4SWjspSsms4sKqRQnvftkwxQbM7VDLmee6ceH0DXs159RDi1Sl9S0q1SHClFVx2cS0KnkOtE0FrEDXfgYPQ+LynNG7kzUTs2QwGbwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFqWdapBcqLqzmFtv4u1S7/YXkthNme2irxXXB7eGczidLj3Vs1Jip1W3If1S5W/AbZJg21XBvhz4Exp3uscfKZABCCgrGpThrP+fvnjucG7esHD839ElteK+RVk0PvATriPa6Or2rDTkdZqBh+OE4sCSMNdNLJkAAPFBzn/sMxX</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
